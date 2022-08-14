@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box; 
+	font-family: "the Brooklyn Smooth";
+}
+
+body{
+
+	background-color:#1b1b1b;
+
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+h2{
+	margin-bottom:2px; 
+	margin-left:8%; 
+	color:yellow;
+
+}
+strong {
+	color:#FF0;
+	margin-left:2px;
+}
+
+footer{
+	width: 100%;
+    float: left;
+    color: #777;
+	text-align:center;
+	margin-top:15px;
+	background:#1b1b1b;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: yellow;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+::-webkit-scrollbar-track {
+    background: #2B2B2B;
+}
+.cabecalho{
+	width: 100%;
+	float: left;
+	color: yellow;
+	height:118px;
+	text-align: right;
+	background:black;
+}
+.logo{
+	width: 210px;
+	height: 20px;
+	margin:0px;
+	margin-left:50px;
+	float: left;
+	font-size: 0px;
+	background:  center center/56px no-repeat; 
+}
+.menu{
+	width: auto;
+	background:#F00;
+	margin:3% 3%;
+	margin-right: 80px;
+	height: 0px;
+	line-height: 35px;
+	float: right;
+	display: block !important;
+	position: static;
+	
+}
+.menu li{
+	padding: 0;
+	float: left;
+	margin-left: 5px;
+}
+.menu li a{
+	color: yellow;
+	font-size: 1em;
+	padding: 10px;
+}
+.menu li a:hover{
+	border: none;
+	color: white;
+}
+
+.conteudo{
+	width: 90%;
+    float: left;
+	margin-top:20px;
+	margin-left:5%;
+	margin-right:5%;	
+	
+}
+.anime{
+	float: left;
+    width: 100%;
+    border: 2px solid #333;
+    background: #232323;
+    margin: 5px 0px;
+    padding: 5px;
+	font-size:1.1em;	
+	
+}
+.anime a{
+	color: yellow;
+	margin-left: 12px;
+
+
+}
+.anime a:hover{
+	color: white;
+
+}
+.detalhes{
+	width: 100%;
+    margin-bottom: 5px;
+    float: right;
+    font-size: .853em;	
+	
+}
+.imgAnime{
+    float: left;
+	width:100px;
+	height:142px;
+}
+
+.nomes {
+    width: 100%;
+    margin-left: -110px;
+    padding-left: 110px;
+    margin-bottom: 5px;
+    float: right;
+    font-size: .853em;
+    color: #666;
+}
+
+

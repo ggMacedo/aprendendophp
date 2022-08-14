@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/estiloSuporte.css" />
+<title>Suporte</title>
+<link rel="shortcut icon" href="imgs/icone_home.ico"/>
+</head>
+
+<header class="cabecalho">
+	<div class="logo"><a href="index.html"><img src="imgs/logo.jpg" /></a></div>
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html"><u>Home</u></a></li>
+			<li><a href="animess.html"><u>Animes</u></a></li>
+			<li><a href="suporte.html"><u>Suporte</u></a></li>
+		</ul>
+	</nav>
+</header>
+<div class="central">
+    <div class="titulo"><h1>Suporte</h1></div>
+    <div class="formulario">
+    	<form method="post" enctype="multipart/form-data" action="php/incluir.act.php">
+
+            <div class="textos">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" value="" placeholder="Escreva seu nome."/>
+            </div> 
+
+            <div class="textos">        
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" value="" placeholder="Escreva seu e-mail."/>
+            </div>
+                    
+             <div class="opcoes">
+                <label>Selecione uma opção</label>
+            </div>  
+
+            <div class="opcoes">
+                <label for="foraAr">Download fora do ar:</label>
+                <input type="radio" id="foraAr" name="opcao" value="f"  />
+            </div>
+
+            <div class="opcoes">
+                <label for="sugestoes">Sugestões:</label>
+                <input type="radio" id="sugestoes" name="opcao" value="s"  />
+            </div>
+
+            <div class="opcoes">
+                <label for="outro">Outros:</label>
+                <input type="radio" id="outro" name="opcao" value="o"  />
+            </div>
+                    
+            <div class="textos">
+                <label for="textos">Mensagem:</label>
+                <textarea name="mensagem" id="textos" value="" placeholder="Escreva uma mensagem."></textarea>
+            </div>
+
+            <button type="submit" name="bt-enviar" value="Enviar" />Enviar</button>
+                  
+    	</form>
+    </div>
+</div>
+
+<footer > © Animes 360° 2018</footer>
+
+<body>
+</body>
+</html>

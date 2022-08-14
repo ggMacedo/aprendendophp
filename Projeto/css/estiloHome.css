@@ -1,0 +1,163 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box; 
+	font-family: "the Brooklyn Smooth";
+}
+
+body{
+
+	background-color:#1b1b1b;
+
+}
+a{
+	text-decoration: none;
+    font-size: 12px;
+}
+
+ul{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+
+}
+
+footer{
+	width: 100%;
+    float: left;
+    color: #777;
+	text-align:center;
+	margin-top:15px;
+	background:#1b1b1b;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+
+}
+::-webkit-scrollbar-thumb {
+    background: yellow;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+::-webkit-scrollbar-track {
+    background: #2B2B2B;
+}
+
+.cabecalho{
+	width: 100%;
+    float: left;
+    color: yellow;
+    height:118px;
+    text-align: right;
+    background:black;
+}
+.logo{
+	width: 210px;
+    height: 20px;
+    margin:0px;
+    margin-left:50px;
+    float: left;
+    font-size: 0px;
+    background:  center center/56px no-repeat; 
+}
+.menu{
+	width: auto;
+    background:#F00;
+    margin:3% 3%;
+    margin-right: 80px;
+    height: 0px;
+    line-height: 35px;
+    float: right;
+    display: block !important;
+    position: static;
+	
+}
+.menu li{
+	padding: 0;
+    float: left;
+    margin-left: 5px;
+}
+.menu li a{
+	color: yellow;
+    font-size: 1em;
+    padding: 10px;
+}
+.menu li a:hover{
+	border: none;
+	color: white;
+	
+}
+.animes{
+	border: 5px solid #2B2B2B;
+    border-top: 2px solid #333;
+    border-bottom: 5px solid #2B2B2B;
+    min-height: 100%;
+    background: #1b1b1b;
+    float: left;
+    width: auto;
+}
+.tras{
+	width:78%;
+	height:300px;
+	float:left;
+	position:relative;
+	margin-left:13.5%;
+	margin-top:2%;
+	margin-bottom:2%;
+
+}
+.fp{
+	width: 200px;
+    height: 180px;
+  
+}
+.fp:houver{
+	cursor: pointer;
+
+}
+.titulo{
+	font-size: 1.2em;
+    background: #232323;
+    color: #fff;
+    min-height: 42px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid yellow;
+    padding: 15px 10px;
+
+}
+.central{
+	width: 200px;
+    position: relative;
+    height: 35px;
+    padding: 5px;
+    background: black;
+    color: yellow;
+    background: #212121;
+    border-bottom: 2px solid yellow;
+	text-align:justify;
+	font-size:1.2em;
+}
+.central:hover{
+	cursor: pointer;
+	color: white;
+	border-bottom: 2px solid white;
+}
+
+.imgs_peqs{
+	width: auto;
+    height: auto;
+	float: left;
+	margin-left:3px;
+	margin-right:3px;
+
+}

@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box; 
+	font-family: "the Brooklyn Smooth";
+}
+
+body{
+
+	background-color:#1b1b1b;
+
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+footer{
+	width: 100%;
+    float: left;
+    color: #777;
+	text-align:center;
+	margin-top:15px;
+	background:#1b1b1b;
+}
+h1{
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0;
+    font-weight: normal;
+}
+
+img {
+    border: 0;
+}
+
+strong {
+    font-weight: bold;
+    color: yellow;
+}
+
+p {
+    color: #777;
+    font-size: .97em;
+    line-height: 18px;
+    margin: 10px;
+}
+button{
+	border:solid yellow;
+	border-radius:20px;
+	background:#232323;
+	width:100px;
+	height:45px;
+	color:yellow;
+	text-align:center;
+	margin-top:1%;	
+	margin-right:10%;
+	float:right;
+}
+button:hover{
+	border:solid #FFF;
+	border-radius:20px;
+	background:#232323;
+	width:100px;
+	height:45px;
+	color:#FFF;
+	text-align:center;
+	margin-top:1%;	
+	margin-right:10%;
+	float:right;
+	cursor:pointer;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: yellow;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+::-webkit-scrollbar-track {
+    background: #2B2B2B;
+}
+.cabecalho{
+	width: 100%;
+    float: left;
+    color: yellow;
+    height:118px;
+    text-align: right;
+    background:black;
+}
+
+.logo{
+	width: 210px;
+    height: 20px;
+    margin:0px;
+    margin-left:50px;
+    float: left;
+    font-size: 0px;
+    background:  center center/56px no-repeat; 
+}
+
+.menu{
+	width: auto;
+    background:#F00;
+    margin:3% 3%;
+    margin-right: 80px;
+    height: 0px;
+    line-height: 35px;
+    float: right;
+    display: block !important;
+    position: static;
+	
+}
+.menu li{
+	padding: 0;
+    float: left;
+    margin-left: 5px;
+}
+.menu li a{
+	color: yellow;
+    font-size: 1em;
+    padding: 10px;
+}
+.menu li a:hover{
+	border: none;
+	color: white;
+}
+
+.conteudo {
+    width: 88%;
+    float: left;
+    border: 1px solid #2B2B2B;
+    border-top: 1px solid #333;
+    border-bottom: 4px solid yellow;
+    background: #1b1b1b;
+    color: #CCC;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.boxAnime {
+    position: relative;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.boxAnimeImg{
+    width: 240px;
+    float: left;
+}
+.barraNome {
+    font-size: 1.2em;
+    background: #232323;
+    color: #fff;
+    min-height: 42px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid yellow;
+    padding: 15px 10px;
+    font-weight: 300;
+}
+
+.barraNome h1 {
+    font-weight: 300;
+}
+
+
+.detalhesAnime{
+	width: calc(100% - 250px);
+    height: 345px;
+    margin-left: 10px;
+    padding: 10px;
+    float: left;
+    color: #888;
+    background: #232323;
+    border: 1px solid #2B2B2B;
+    border-top: 2px #2b2b2b;
+    border-bottom: 1px 1 #333;
+}
+.detalhesAnimeNomes {
+    color: #666;
+    margin-bottom: 8px;
+    border-bottom: 1px #333;
+}
+
+.conteudoEpisodio{
+    width: 88%;
+    float: left;
+    border: 1px solid #2B2B2B;
+    border-top: 1px solid #333;
+    border-bottom: 4px solid yellow;
+    background: #1b1b1b;
+    color: #CCC;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.barraEpisodios{
+    font-size: 1.2em;
+    background: #232323;
+    color: #fff;
+    min-height: 42px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid yellow;
+    padding: 15px 10px;
+    font-weight: 300;
+
+}
+.episodios{
+    min-height: 105px;
+    background: #232323;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    background: #222;
+    border: 1px solid #2B2B2B;
+    border-top: 2px solid #2b2b2b;
+    border-left: 1px solid #2b2b2b;
+    border-right: 1px solid #2b2b2b;
+    border-bottom: 1px 1 #333;
+    margin-bottom: 5px;
+
+}
+.episodios a{
+    color: yellow;
+
+}
+.episodios a:hover{
+    color: white;
+    
+}
+.episodiosImg {
+    float: left;
+    width: 160px;
+    border-radius: 2px;
+    margin: 10px;
+    position: relative;
+}
+.episodiosDetalhes {
+    float: left;
+    width: calc(100% - 180px);
+    min-height: 55px;
+    margin: 10px 0px;
+
+}
